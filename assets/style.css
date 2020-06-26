@@ -5,7 +5,7 @@ body {
 }
 /* Hpmepage jumotron */
 #home {
-    background: url("images/dough-chef.jpg");
+    background: url("images/pizza-olives.jpg");
     background-size: cover; 
 
     background-position: center;
@@ -26,7 +26,7 @@ body {
 
  
 .navbar-dark .navbar-nav .nav-link {
-	font-size: 1.5em;
+	font-size: 1.5rem;
     font-weight: 500;
     color: lightgrey;
     padding: 30px;
@@ -35,7 +35,7 @@ body {
 .navbar-dark .nav-item:active .nav-link,
 .navbar-dark .nav-item:focus .nav-link,
 .navbar-dark .nav-item:hover .nav-link {
-        color: blue ;
+        color: red ;
 }
 
 #pizzaSlice {
@@ -53,6 +53,7 @@ body {
 .display-1 {
     font-weight: 500;
     padding: 30px;
+    
     color: white;
     font-family: Georgia, serif;
     }
@@ -64,4 +65,63 @@ body {
     font-family: Georgia, serif;
 }
 
+.sMedia {
+    list-style-type: none;
+    padding-left: 0;
+}
 
+.mediaIcons {
+    font-size: 3rem;
+    margin: 10px;
+    
+}
+
+.fa-linkedin {
+    color: rgb(40,103,178);
+}
+
+.fa-twitter-square {
+    color: rgb(29,161,242);
+}
+
+.fa-facebook-square {
+    color: rgb(66,103,178);
+}
+
+
+/* Footer */
+
+footer {
+
+    bottom: 0;
+    width: 100%;
+}
+
+footer .container {
+    padding-top: 15px;
+    margin-top: 30px;
+}
+
+.footerList {
+    list-style-type: none;
+    font-size: 1rem;
+    padding: 0;
+    color: white;
+}
+
+.footerList li a {
+    color: white;
+    
+}
+
+.footerList li a:hover {
+    color: pink;
+}
+
+#lineFooter {
+    border: white 0.5px solid;
+}
+
+.footer-copyright {
+    color: white;
+}
