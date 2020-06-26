@@ -1,0 +1,67 @@
+
+
+body {
+
+}
+/* Hpmepage jumotron */
+#home {
+    background: url("images/dough-chef.jpg");
+    background-size: cover; 
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: darkgray;
+}
+
+#lineHome {
+    width: 50%;
+    border: 1.3px rgb(190, 190, 190) solid;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+/* Navbar */
+
+
+ 
+.navbar-dark .navbar-nav .nav-link {
+	font-size: 1.5em;
+    font-weight: 500;
+    color: lightgrey;
+    padding: 30px;
+} 
+
+.navbar-dark .nav-item:active .nav-link,
+.navbar-dark .nav-item:focus .nav-link,
+.navbar-dark .nav-item:hover .nav-link {
+        color: blue ;
+}
+
+#pizzaSlice {
+    margin-right: 10px;
+}
+
+    /*hamburger*/
+.custom-toggler.navbar-toggler {
+    border-color: rgb(255,255,203);
+  } 
+
+
+/* Typography */
+
+.display-1 {
+    font-weight: 500;
+    padding: 30px;
+    color: white;
+    font-family: Georgia, serif;
+    }
+
+.display-4 {
+    font-weight: 400;
+    padding-bottom: 20px;
+    color: white;
+    font-family: Georgia, serif;
+}
+
+
