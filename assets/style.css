@@ -3,9 +3,9 @@
 body {
 
 }
-/* Hpmepage jumotron */
+/* Homepage jumotron */
 #home {
-    background: url("images/pizza-olives.jpg");
+    background: url("images/pizza-oven.jpg");
     background-size: cover; 
 
     background-position: center;
@@ -28,7 +28,7 @@ body {
 .navbar-dark .navbar-nav .nav-link {
 	font-size: 1.5rem;
     font-weight: 500;
-    color: lightgrey;
+    color: white;
     padding: 30px;
 } 
 
@@ -42,10 +42,53 @@ body {
     margin-right: 10px;
 }
 
-    /*hamburger*/
-.custom-toggler.navbar-toggler {
-    border-color: rgb(255,255,203);
-  } 
+/*hamburger*/
+.navbar-dark .navbar-toggler {
+    border-color: white;
+} 
+
+.navbar-toggler {
+    font-size: 1.70rem;
+    border: 2px solid transparent;
+    border-radius: .60rem;
+    
+}
+
+.toggler-icon {
+
+    color: white;
+    width: 1.5em;
+    height: 1.5em;
+}
+
+.fa-align-justify {
+    padding: 10px;
+    font-size: 2.5rem;
+}
+
+/*
+.navbar-dark .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(0, 0, 0, 0.5)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    stroke: rgb(190, 190, 190);
+}
+*/
+
+
+
+ /*
+.navbar-dark .container .navbar-toggler .navbar-toggler-icon {
+    background-color: pink;
+    color: pink;
+    border: pink;
+    stroke: ;
+}
+*/
+
+
+
+.card {
+    margin-top: 20px;
+}
 
 
 /* Typography */
@@ -73,7 +116,6 @@ body {
 .mediaIcons {
     font-size: 3rem;
     margin: 10px;
-    
 }
 
 .fa-linkedin {
