@@ -1,8 +1,4 @@
 
-
-body {
-
-}
 /* Homepage jumotron */
 #home {
     background: url("images/dough-chef.jpg");
@@ -15,7 +11,7 @@ body {
 
 #lineHome {
     width: 50%;
-    border: 1.3px rgb(190, 190, 190) solid;
+    border: 1.3px rgb(255, 255, 255, .8) solid;
     margin: auto;
     margin-top: 25px;
     margin-bottom: 25px;
@@ -28,6 +24,7 @@ body {
     font-family: Georgia, serif;
     font-style: italic;
     font-weight: 550;
+    
     color: white;
     padding: 30px;
     transition: transform .2s;
@@ -35,7 +32,7 @@ body {
 
 
 .navbar-dark .nav-item:hover .nav-link {
-    color: red ;
+    color: #E27D60 ;
     transform: scale(1.3);
     text-shadow: grey 3px 3px 5px;
 }
@@ -84,6 +81,7 @@ body {
     padding: 1.9rem;
     color: white;
     font-family: Georgia, serif;
+
     }
 
 .display-4 {
@@ -91,6 +89,7 @@ body {
     padding-bottom: 1.25rem;
     color: white;
     font-family: Georgia, serif;
+    
 }
 
 #h3FollowUs {
@@ -106,7 +105,7 @@ body {
 
 .mediaIcons {
     font-size: 3rem;
-    margin: 1.2rem;
+    margin: 1rem;
     transition: transform .2s;
 }
 
@@ -116,18 +115,25 @@ body {
 
 }
 
-.fa-linkedin {
+#linkedin {
     color: rgb(40,103,178);
 }
 
-.fa-twitter-square {
+#twitter {
     color: rgb(29,161,242);
 }
 
-.fa-facebook-square {
+#snapchat {
+    color: rgb(255, 252, 0);
+}
+
+#facebook {
     color: rgb(66,103,178);
 }
 
+#pintrest{
+    color: rgb(200, 35, 44);
+}
 
 
 /* Footer */
@@ -149,6 +155,7 @@ footer .container {
     color: white;
     font-size: 2rem;
     font-weight: 525;
+    padding: 1.3rem;
     
 }
 
@@ -168,10 +175,44 @@ footer .container {
     color: pink;
 }
 
+.contactIcons {
+    font-size: 1.2rem;
+
+}
+
+#footerMailIcon {
+    margin-right: 1.1rem;
+}
+
+#footerMobIcon {
+    margin-right: 1.5rem;
+}
+
+#footerMapIcon {
+    margin-right: 1.4rem;
+}
+
+.h5Footer {
+    color: white;
+    padding-top: 1rem;
+    padding-bottom: 0.7rem;
+    text-align: center;
+}
+
+.footerMediaIcons {
+    font-size: 2.5rem;
+    margin: 0.4rem;
+
+}
+
 #lineFooter {
     border: white 0.5px solid;
 }
 
 .footer-copyright {
     color: white;
+
+    padding-top: 0.5rem;
+    padding-bottom: 1.5rem;
 }
+

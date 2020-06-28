@@ -56,10 +56,12 @@
                     <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                     <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
                 <h3 class="text-center" id="h3FollowUs">Follow us</h3>
-                    <ul class="sMedia d-flex flex-row justify-content-center">
-                        <li><a href="https://linkedin.com" class="text-decoration-none"><i class="fab fa-linkedin mediaIcons"></i></a></li>
-                        <li><a href="https://twitter.com" class="text-decoration-none"><i class="fab fa-twitter-square mediaIcons"></i></a></li>
-                        <li><a href="https://facebook.com" class="text-decoration-none"><i class="fab fa-facebook-square mediaIcons"></i></a></li>
+                    <ul class="sMedia d-flex flex-row flex-wrap justify-content-center">
+                        <li><a href="https://linkedin.com"><i class="fab fa-linkedin mediaIcons" id="linkedin"></i></a></li>
+                        <li><a href="https://twitter.com"><i class="fab fa-twitter-square mediaIcons" id="twitter"></i></a></li>
+                        <li><a href="https://snapchat.com"><i class="fab fa-snapchat-square mediaIcons" id="snapchat"></i></a></li>
+                        <li><a href="https://facebook.com"><i class="fab fa-facebook-square mediaIcons" id="facebook"></i></a></li>
+                        <li><a href="https://pintrest.com"><i class="fab fa-pinterest-square mediaIcons" id="pintrest"></i></a></li>
                     </ul>
             </div>
             <div class="col-12 col-xl-7">
@@ -91,22 +93,6 @@
                               <small class="text-muted">Last updated 7 hours ago</small>
                             </div>
                           </div>
-
-                        <!--
-                        <div class="card" style="width: 18rem;">
-                            <img src="assets/images/wine-clink.jpg" class="card-img-top" alt="Event image">
-                            <div class="card-body">
-                              <h5 class="card-title">Events</h5>
-                              <p class="card-text"><strong>20/06/2020 at 8:00pm</strong></p>
-                              <p class="card-text">Launch party for new restaurant in Brisbane</p>
-
-                            </div>
-                            <ul class="list-group list-group-flush">
-                              <li class="list-group-item"><strong>15/08/2020 8:00pm</strong> 'Mama Mia' band plays in our Paris location</li>
-                              <li class="list-group-item"><strong>17/09/2020 9:00am-2:00pm</strong> pizza making workshop <br>RSVP before 01/09/2020</li>
-                            </ul>
-                          </div>
-                          -->
                     </div>
                 </div>
             </div>
@@ -122,10 +108,13 @@
       <!-- Footer -->
     <footer class="page-footer font-small bg-dark">
         <div class="container ">
-            <h3 class="text-center" id="h3FooterTitle">Ezio's Authentic Woodfire Pizza</h3>
             <div class="row justify-content-center">
-                <div class="col-12 col-sm-6 col-md-4 ">
-                    <ul class="footerList text-center"><h5>Site Index:</h5> 
+                <h3 class="text-center" id="h3FooterTitle">Ezio's Authentic Woodfire Pizza</h3>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-12 col-sm-6 col-md-4 d-flex justify-content-center text-center text-sm-left">
+                    <ul class="footerList">
+                        <h5 class="h5Footer">Site Index</h5> 
                         <li><a href="index.html" class="text-decoration-none footerLinks">Home</a></li>
                         <li><a href="menu.html" class="text-decoration-none footerLinks">Menu</a></li>
                         <li><a href="gallery.html" class="text-decoration-none footerLinks">Gallery</a></li>
@@ -133,22 +122,36 @@
                         <li><a href="contacts.html" class="text-decoration-none footerLinks">Contact</a></li>
                     </ul> 
                 </div>
-                <div class="col-12 col-sm-6 col-md-4">
-                    <ul class="footerList text-center"><h5>Make a reservation:</h5>
-                        <li><a href="contacts.html" class="text-decoration-none footerLinks">Send us a message</a></li>
-                        <li><a href="tel:0000000000" class="text-decoration-none footerLinks">Call us on +61 (0) 2 3265 3924</a></li>
-                        <li><a href="locations.html" class="text-decoration-none footerLinks"> See our locations</a></li>
+                <div class="col-12 col-sm-6 col-md-4 d-flex justify-content-center text-center text-sm-left">
+                    <ul class="footerList">
+                        <h5 class="h5Footer">Reservations</h5>
+                        <li><a href="contacts.html" class="text-decoration-none footerLinks"><i class="fas fa-envelope contactIcons" id="footerMailIcon"></i>Send a message</a></li>
+                        <li><a href="tel:0000000000" class="text-decoration-none footerLinks"><i class="fas fa-mobile-alt contactIcons" id="footerMobIcon"></i>Call +61 (0) 2 3265 3924</a></li>
+                        <li><a href="locations.html" class="text-decoration-none footerLinks"><i class="fas fa-map-marker-alt contactIcons" id="footerMapIcon"></i>Our locations</a></li>
                     </ul>
                 </div>
+                <div class="col-12 col-lg-4 d-flex flex-column text-center justify-content-center align-self-start">
+                    <h5 class="h5Footer">Social media</h5> 
+                    <ul class="footerList d-flex flex-row flex-wrap justify-content-center">
+                        <li><a href="https://linkedin.com"><i class="fab fa-linkedin footerMediaIcons"></i></a></li>
+                        <li><a href="https://twitter.com"><i class="fab fa-twitter-square footerMediaIcons"></i></a></li>
+                        <li><a href="https://snapchat.com"><i class="fab fa-snapchat-square footerMediaIcons"></i></a></li>
+                        <li><a href="https://facebook.com"><i class="fab fa-facebook-square footerMediaIcons"></i></a></li>
+                        <li><a href="https://pintrest.com"><i class="fab fa-pinterest-square footerMediaIcons"></i></a></li>
+                    </ul>
+                
+                    
+                </div>
             </div>
-            <hr class="my-7" id="lineFooter">
+            <hr id="lineFooter">
             <!-- Copyright --> 
-            <div class="footer-copyright text-center py-3">© 2020 Copyright:
+            <div class="footer-copyright text-center">© 2020 Copyright:
                 <a href="https://github.com/AshleighTempleton" class="text-reset"> AT Enterprises</a>
             </div>
         </div>
     </footer>   
 
+    <!--Bootstrap JS links-->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
