@@ -41,7 +41,7 @@ body {
 
 /* Contact jumbotron */
 #contacts {
-  background: url("images/team.jpg");
+  background: url("images/pizza-friends.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -169,6 +169,12 @@ body {
   padding: 0;
   height: 100%;
   width: 100%;
+}
+
+/* Contact form */
+
+.formContainer {
+  max-width: 600px;
 }
 
 /* Typography */
