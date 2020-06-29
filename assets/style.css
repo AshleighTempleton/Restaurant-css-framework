@@ -30,6 +30,16 @@ body {
     background-color: darkgray;
 }
 
+/* Locations jumbotron */
+
+#locations {
+    background: url("images/mlb.jpg");
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: darkgray;  
+}
+
 
 /* Navbar */
 
@@ -126,7 +136,41 @@ body {
     border-color: rgb(73, 164, 243);
 }
 
+/* Line between continents/locations */
 
+.lineCountries {
+    margin: 2rem;
+}
+
+/*Table Opening Hours*/ 
+
+.tableHours {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+/* Location google maps */
+
+.iframe-container{
+    position: relative;
+    width: 100%;
+    box-shadow: lightgrey 2px 2px 5px;
+    margin-bottom: 2rem;
+}
+
+
+.iframe-container > *{
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
 
 /* Typography */
 
@@ -146,9 +190,30 @@ body {
     
 }
 
+.h2Continents {
+    font-weight: 550;
+    font-size: 2.8rem;
+    margin-top: 1.3rem;
+    font-family: Georgia, serif;
+}
+
 #h3FollowUs {
     margin-top: 1.5rem;
 }
+
+.h4Cities {
+    font-weight: 500;
+    font-size: 2.5rem;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    font-family: Georgia, serif;
+}
+/*
+.h5Address {
+
+}
+*/
+
 
 /* Social Media */
 
