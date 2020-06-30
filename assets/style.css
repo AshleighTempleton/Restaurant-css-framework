@@ -19,6 +19,16 @@ body {
   margin-bottom: 25px;
 }
 
+/* Menu jumbotron */
+
+#menu {
+  background: url("images/pizza-fire.jpg");
+  background-size: cover;
+  background-position: 50% 60%;
+  background-repeat: no-repeat;
+  background-color: darkgray;
+}
+
 /* Gallery jumbotron */
 
 #gallery {
@@ -97,6 +107,25 @@ body {
 
 .card {
   margin-top: 20px;
+}
+
+/* Menu features */
+
+.colMenu {
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+}
+
+.list-group-item {
+  font-size: 1.1rem;
+}
+.badge {
+  margin-left: 1rem;
+  margin-top: 0.25rem;
+}
+
+#badgeGF {
+  margin-left: 1.5rem;
 }
 
 /* Gallery images*/
@@ -213,12 +242,6 @@ h2 {
   margin-top: 1.3rem;
 }
 
-#h3Contact {
-  font-size: 2.8rem;
-  font-family: Georgia, serif;
-  margin
-}
-
 #h3FollowUs {
   margin-top: 1.5rem;
   font-family: Georgia, serif;
@@ -231,11 +254,10 @@ h2 {
   margin-bottom: 2rem;
   font-family: Georgia, serif;
 }
-/*
-.h5Address {
 
+h5 a {
+  color: inherit;
 }
-*/
 
 /* Social Media */
 
