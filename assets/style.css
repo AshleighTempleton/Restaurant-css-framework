@@ -171,19 +171,13 @@ body {
   margin: 2rem;
 }
 
-/*Table Opening Hours*/
-
-.tableHours {
-  margin-top: 3rem;
-  margin-bottom: 3rem;
-}
-
 /* Location google maps */
 
 .iframe-container {
   position: relative;
   width: 100%;
   box-shadow: lightgrey 2px 2px 5px;
+  margin-top: 2rem;
   margin-bottom: 2rem;
 }
 
@@ -250,12 +244,15 @@ h2 {
 .h4Cities {
   font-weight: 500;
   font-size: 2.5rem;
-  margin-top: 3rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
   font-family: Georgia, serif;
 }
 
 h5 a {
+  color: inherit;
+}
+
+p a {
   color: inherit;
 }
 
