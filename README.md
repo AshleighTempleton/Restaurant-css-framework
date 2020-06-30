@@ -62,6 +62,6 @@ The project author also received help and inspiration from colleagues at BeCode 
 
 All locations are places the author has either lived in or had a special connection to. Many more places could be added, but it would take to long to scroll down the page.
 
-###Author
+### Author
 
 The GitHub profile of Ashleigh Templeton [can be viewed here](https://github.com/AshleighTempleton).
